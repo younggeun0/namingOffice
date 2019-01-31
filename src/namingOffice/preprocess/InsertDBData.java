@@ -3,6 +3,7 @@ package namingOffice.preprocess;
 import java.sql.SQLException;
 
 import namingOffice.dao.NamingDAO;
+import namingOffice.vo.InsertDataVO;
 
 public class InsertDBData {
 
@@ -124,62 +125,86 @@ public class InsertDBData {
 			
 			//1945년도 데이터 insert
 			for(int i=0; i<10; i++) {
-				idvo = new InsertDataVO(f_name1945[i], m_name1945[i], 1945, i+1);
+				idvo = new InsertDataVO(f_name1945[i], "f", 1945, i+1);
+				n_dao.insertData(idvo);
+				idvo = new InsertDataVO(m_name1945[i], "m", 1945, i+1);
 				n_dao.insertData(idvo);
 			}
 			//1948년도 데이터 insert
 			for(int i=0; i<10; i++) {
-				idvo = new InsertDataVO(f_name1948[i], m_name1948[i], 1948, i+1);
+				idvo = new InsertDataVO(f_name1948[i], "f", 1948, i+1);
+				n_dao.insertData(idvo);
+				idvo = new InsertDataVO(m_name1948[i], "m", 1948, i+1);
 				n_dao.insertData(idvo);
 			}
 			//1958년도 데이터 insert
 			for(int i=0; i<10; i++) {
-				idvo = new InsertDataVO(f_name1958[i], m_name1958[i], 1958, i+1);
+				idvo = new InsertDataVO(f_name1958[i], "f", 1958, i+1);
+				n_dao.insertData(idvo);
+				idvo = new InsertDataVO(m_name1958[i], "m", 1958, i+1);
 				n_dao.insertData(idvo);
 			}
 			//1968년도 데이터 insert
 			for(int i=0; i<10; i++) {
-				idvo = new InsertDataVO(f_name1968[i], m_name1968[i], 1968, i+1);
+				idvo = new InsertDataVO(f_name1968[i], "f", 1968, i+1);
+				n_dao.insertData(idvo);
+				idvo = new InsertDataVO(m_name1968[i], "m", 1968, i+1);
 				n_dao.insertData(idvo);
 			}
 			//1975년도 데이터 insert
 			for(int i=0; i<10; i++) {
-				idvo = new InsertDataVO(f_name1975[i], m_name1975[i], 1975, i+1);
+				idvo = new InsertDataVO(f_name1975[i], "f", 1975, i+1);
+				n_dao.insertData(idvo);
+				idvo = new InsertDataVO(m_name1975[i], "m", 1975, i+1);
 				n_dao.insertData(idvo);
 			}
 			//1978년도 데이터 insert
 			for(int i=0; i<10; i++) {
-				idvo = new InsertDataVO(f_name1978[i], m_name1978[i], 1978, i+1);
+				idvo = new InsertDataVO(f_name1978[i], "f", 1978, i+1);
+				n_dao.insertData(idvo);
+				idvo = new InsertDataVO(m_name1978[i], "m", 1978, i+1);
 				n_dao.insertData(idvo);
 			}
 			//1988년도 데이터 insert
 			for(int i=0; i<10; i++) {
-				idvo = new InsertDataVO(f_name1988[i], m_name1988[i], 1988, i+1);
+				idvo = new InsertDataVO(f_name1988[i], "f", 1988, i+1);
+				n_dao.insertData(idvo);
+				idvo = new InsertDataVO(m_name1988[i], "m", 1988, i+1);
 				n_dao.insertData(idvo);
 			}
 			//1998년도 데이터 insert
 			for(int i=0; i<10; i++) {
-				idvo = new InsertDataVO(f_name1998[i], m_name1998[i], 1998, i+1);
+				idvo = new InsertDataVO(f_name1998[i], "f", 1998, i+1);
+				n_dao.insertData(idvo);
+				idvo = new InsertDataVO(m_name1998[i], "m", 1998, i+1);
 				n_dao.insertData(idvo);
 			}
 			//2005년도 데이터 insert
 			for(int i=0; i<10; i++) {
-				idvo = new InsertDataVO(f_name2005[i], m_name2005[i], 2005, i+1);
+				idvo = new InsertDataVO(f_name2005[i], "f", 2005, i+1);
+				n_dao.insertData(idvo);
+				idvo = new InsertDataVO(m_name2005[i], "m", 2005, i+1);
 				n_dao.insertData(idvo);
 			}
 			//2008년도 데이터 insert
 			for(int i=0; i<10; i++) {
-				idvo = new InsertDataVO(f_name2008[i], m_name2008[i], 2008, i+1);
+				idvo = new InsertDataVO(f_name2008[i], "f", 2008, i+1);
+				n_dao.insertData(idvo);
+				idvo = new InsertDataVO(m_name2008[i], "m", 2008, i+1);
 				n_dao.insertData(idvo);
 			}
 			//2009년도 데이터 insert
 			for(int i=0; i<10; i++) {
-				idvo = new InsertDataVO(f_name2009[i], m_name2009[i], 2009, i+1);
+				idvo = new InsertDataVO(f_name2009[i], "f", 2009, i+1);
+				n_dao.insertData(idvo);
+				idvo = new InsertDataVO(m_name2009[i], "m", 2009, i+1);
 				n_dao.insertData(idvo);
 			}
 			//2013년도 데이터 insert
 			for(int i=0; i<10; i++) {
-				idvo = new InsertDataVO(f_name2013[i], m_name2013[i], 2013, i+1);
+				idvo = new InsertDataVO(f_name2013[i], "f", 2013, i+1);
+				n_dao.insertData(idvo);
+				idvo = new InsertDataVO(m_name2013[i], "m", 2013, i+1);
 				n_dao.insertData(idvo);
 			}
 			
