@@ -49,10 +49,5 @@ END;
 
 ## 시연
 
-![03](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/NOF/03.png?raw=true)
-
-![04](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/NOF/04.png?raw=true)
-
-![05](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/NOF/05.png?raw=true)
-
+![시연](https://github.com/younggeun0/namingOffice/blob/master/naming_office.gif?raw=true)
 
